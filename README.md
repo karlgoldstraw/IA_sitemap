@@ -1,14 +1,11 @@
-# portfolio
-My online portfolio
+# CSS Sitemap
 
-Using this:  https://coursetro.com/posts/code/130/Learn-Bootstrap-4-Final-in-2018-with-our-Free-Crash-Course
+CSS file that turns a tree structure into a visual Sitemap
 
-Removed Bootstrap bloat and replaced it with CSS grid.
+The tree must be inside a div class called 'tree', and the file is located at index.njk, extending layout.njk
 
-https://inclusive-components.design/cards/
+Each item should be wrapped in an <a> tag so that hover state works
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
-
-Added: gulp-nunjucks-render: https://www.npmjs.com/package/gulp-nunjucks-render
-
-Learning from: https://github.com/wzulfikar/nunjucks-starter-kit
+## Installation
+Run `NPM install`
+and then `Gulp`
