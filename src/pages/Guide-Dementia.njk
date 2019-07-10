@@ -1,0 +1,33 @@
+{% extends "layout.njk" %}
+{% set title = 'Dementia Guide' %}
+{% set body_class = 'home' %}
+{% set stylesheet = 'styles-new.css' %}
+
+
+{% block content %}
+<div class="tree">
+
+<h1>{{ title }}</h1>
+
+  <ul class="level-1">
+    <li><a href="#">Dementia guide</a>
+
+      <ul class="level-2">
+      <li><a href="#">About dementia</a>
+      </li>
+      <li><a href="#">Care and support</a>
+      </li>
+      <li><a href="#">Living with dementia</a>
+      </li>
+      <li><a href="#">Symptoms and diagnosis</a>
+      </li>
+      </ul>
+    </li>
+  </ul>
+
+
+
+
+
+</div>
+{% endblock content %}

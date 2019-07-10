@@ -1,0 +1,38 @@
+{% extends "layout.njk" %}
+{% set title = 'Cosmetic Procedures Guide' %}
+{% set body_class = 'home' %}
+{% set stylesheet = 'styles-new.css' %}
+
+
+{% block content %}
+<div class="tree">
+
+<h1>{{ title }}</h1>
+
+  <ul class="level-1">
+
+
+
+    <li><a href="#">Cosmetic Procedures</a>
+      <ul class="level-2">
+      <li><a href="#">Before you have a cosmetic procedures</a>
+      </li>
+      <li><a href="#">Non-surgical procedures</a>
+        <ul class="level-3">
+        <li><a href="#">Botox injections</a>
+        </li>
+        </ul>
+      </li>
+      </ul>
+    </li>
+
+
+
+  </ul>
+
+
+
+
+
+</div>
+{% endblock content %}

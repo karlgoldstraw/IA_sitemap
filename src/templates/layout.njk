@@ -15,7 +15,14 @@
       NHS IA Team Sitemap Experiment
   {% endif %}
   </title>
-  <link rel="stylesheet" href="css/styles.css">
+
+  {% if stylesheet %}
+      <link rel="stylesheet" href="css/{{ stylesheet }}">
+  {% else %}
+      <link rel="stylesheet" href="css/styles-new.css">
+  {% endif %}
+
+
 </head>
 
 <body class="{{ body_class }}">
