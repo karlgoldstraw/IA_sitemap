@@ -1,31 +1,26 @@
 {
-  "name": "portfolio",
+  "name": "IA sitemap",
   "version": "1.0.0",
-  "description": "My online portfolio",
+  "description": "A sitemap for NHS IA",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theturning/portfolio.git"
+    "url": "git+https://github.com/karlgoldstraw/IA_sitemap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theturning/portfolio/issues"
+    "url": "https://github.com/karlgoldstraw/IA_sitemap/issues"
   },
-  "homepage": "https://github.com/theturning/portfolio#readme",
+  "homepage": "https://github.com/karlgoldstraw/IA_sitemap#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^3.9.1",
     "gulp-nunjucks-render": "^2.2.3",
     "gulp-sass": "^4.0.1"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.14.4"
   }
 }
