@@ -1,8 +1,22 @@
 {
-  "name": "IA sitemap",
+  "name": "sitemap",
   "version": "1.0.0",
-  "description": "A sitemap for NHS IA",
-  "main": "index.js",
+  "description": "CSS file that turns a tree structure into a visual Sitemap",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "jquery": "^3.5.1",
+    "bootstrap": "^4.5.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,17 +24,10 @@
     "type": "git",
     "url": "git+https://github.com/karlgoldstraw/IA_sitemap.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/karlgoldstraw/IA_sitemap/issues"
   },
-  "homepage": "https://github.com/karlgoldstraw/IA_sitemap#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^3.9.1",
-    "gulp-nunjucks-render": "^2.2.3",
-    "gulp-sass": "^4.0.1"
-  }
+  "homepage": "https://github.com/karlgoldstraw/IA_sitemap#readme"
 }
