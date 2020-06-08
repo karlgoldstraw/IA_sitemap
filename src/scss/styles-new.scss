@@ -29,12 +29,12 @@ li a {
   position: relative;
 	display: block;
 	margin: 0;
-	padding: 10px;
+	padding: 14px;
 	font-size: 12px;
 	white-space: normal;
 	color: #333;
-	background-color: white;
-	border: 1px solid #CCC;
+	background-color: #e8e8e8;
+	/*border: 1px solid #CCC;*/
   z-index: 1;
   text-decoration: none;
 }
@@ -42,7 +42,7 @@ li a {
 .tree li a:hover + ul li a {
   background: #005eb8;
   color: #fff;
-  border: 1px solid #005eb8;
+  /*border: 1px solid #005eb8;*/
 }
 .tree li a:hover + ul li::after,
 .tree li a:hover + ul li::before,
