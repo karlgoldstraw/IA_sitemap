@@ -71,6 +71,7 @@ ul, li {
 	z-index: 0;
 }
 
+
 /* --- Level 1 --- */
 .tree ul ul {
 	white-space: nowrap;
@@ -147,4 +148,9 @@ ul, li {
 .tree > ul > li > a,
 .tree > ul > li > ul > li {
   max-width: 200px;
+}
+
+/* --- Specifics --- */
+ul > li + a {
+  border: #000 1px solid;
 }
